@@ -1,0 +1,281 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*--------- HEADER -----------*/
+
+.header{
+    background-color: darkorange;
+    color: white;
+    padding: 15px;
+    
+}
+
+
+
+.header__title{
+    text-align: center;
+    padding: 15px;
+}
+
+.header__navbar ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+@media(min-width:1200px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .header__navbar{
+        width: 40%;
+    }
+
+}
+
+a{
+    color: white;
+}
+
+/*------INDEX HERO---------*/
+
+.hero{
+    height: 92vh;
+
+    background: #000 url("../img/auto.jpg") center / cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hero__text{
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 140, 0, 0.582);
+    padding: 15px;
+    border-radius: 20px; 
+}
+
+/* -------H1y2--------- */
+
+h1 {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: darkorange;
+    
+}
+
+h2{
+    font-size: 1.5rem;
+    padding: 10px;
+    
+    
+    
+
+}
+
+
+/*----SECCION NOSOTROS.HTML--------*/
+
+.imgnosotros{
+    max-width: 100%;
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-bottom: 40px;
+    padding-right: 20%;
+    
+    
+}
+
+
+
+.parrafo{
+    color: black;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 1rem;
+    align-items: center;
+    
+    
+    
+}
+
+/*------SECCION SERVICIOS.HTML--------*/
+
+.contenedor-servicios{
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+    justify-content: space-around;
+    height: 80vh;
+    width: 100%;
+    
+}
+
+
+
+@media(max-width:1023px){
+    .contenedor-servicios{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 240vh;
+        
+       
+    }
+
+    .h2s{
+        text-align: center;
+    }
+}
+
+
+.tarjeta{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    
+    
+}
+
+.tarjeta__img{
+    width: 100%;
+    
+}
+
+.tarjeta__img:hover{
+    width: 400px;
+    height: 400px;
+}
+
+.tarjeta__titulo{
+    padding: 15px;
+    
+    
+}
+
+
+    
+
+
+/*------SECCION GALERIA.HTML------*/
+
+.galeria__title{
+    padding-left: 150px;
+}
+
+.contenedor-galeria{
+    width: 100%;
+    margin: auto;
+
+}
+
+.auto__img{
+    width: 100%;
+}
+
+
+.auto__columna{
+    margin: 5px;
+
+}
+
+.autos .contenedor-galeria{
+    display: grid;
+
+
+}
+
+@media(min-width:478px){
+    .autos .contenedor-galeria{
+
+    grid-template-columns: repeat(2,1fr);
+    
+    }
+
+}
+
+@media(min-width:728px){
+    .autos .contenedor-galeria{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media(min-width:1024px){
+    .autos .contenedor-galeria{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .contenedor-galeria{
+        width: 1024px;
+    }
+}   
+
+@media(min-width:1200px){
+    
+    .contenedor-galeria{
+        width: 1200px;
+    }
+}
+
+
+/*-------SECCION CONTACTO.HTML----------*/
+
+.contact{
+    padding: 15px;
+    height: 80vh;
+    width: 100%;
+    
+}
+
+/*---------FOOTER------------*/
+
+.footer{
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1,5rem;
+    background-color: darkorange;
+    text-align: center;
+    padding: 15px;
+    
+    
+    
+    
+}
+
+
