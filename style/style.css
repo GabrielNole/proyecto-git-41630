@@ -16,7 +16,7 @@ ul{
 
 /*--------- HEADER -----------*/
 
-.header{
+/* .header{
     background-color: darkorange;
     color: white;
     padding: 15px;
@@ -56,7 +56,7 @@ a{
 
 a:hover{
     color: rgba(255, 255, 255, 0.644);
-}
+} */
 
 /*------INDEX HERO---------*/
 
@@ -94,29 +94,16 @@ h2{
     font-size: 1.5rem;
     padding: 10px;
     
-    
-    
-
 }
-
 
 /*----SECCION NOSOTROS.HTML--------*/
 
 .imgnosotros{
-    max-width: 100%;
-    height: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 50px;
-    justify-content: space-around;
-    padding-left: 20%;
+    width: 100%;
+    height: 80vh;
     padding-bottom: 40px;
-    padding-right: 20%;
-    
     
 }
-
-
 
 .parrafo{
     color: black;
@@ -126,9 +113,12 @@ h2{
     text-align: justify;
     padding: 1rem;
     align-items: center;
+    padding-top: 50px;
     
-    
-    
+}
+
+.h2_nosotros{
+    padding-left: 20px;
 }
 
 /*------SECCION SERVICIOS.HTML--------*/
@@ -189,12 +179,9 @@ h2{
 
 .tarjeta__titulo{
     padding: 15px;
-    
-    
+    font-size: 20px;
+
 }
-
-
-    
 
 
 /*------SECCION GALERIA.HTML------*/
@@ -259,11 +246,22 @@ h2{
 
 /*-------SECCION CONTACTO.HTML----------*/
 
-.contact{
+.contacto{
     padding: 15px;
     height: 80vh;
     width: 100%;
-    
+    justify-content: center;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.navbar-brand{
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 15px;
+    font-weight: bold;
 }
 
 /*---------FOOTER------------*/
