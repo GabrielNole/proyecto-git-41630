@@ -207,7 +207,17 @@ h2{
 
 /*------SECCION SERVICIOS.HTML--------*/
 
-.contenedor-servicios{
+.card{
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    
+}
+
+
+
+
+/* .contenedor-servicios{
     display: flex;
     padding: 15px;
     gap: 10px;
@@ -265,12 +275,24 @@ h2{
     padding: 15px;
     font-size: 20px;
 
-}
+} */
 
 
 /*------SECCION GALERIA.HTML------*/
 
-.galeria__title{
+#galeria .col-lg-4{
+    padding: 25px;
+}
+
+#galeria img{
+    width: 100%;
+}
+
+#galeria img:hover{
+    border: 5px solid white
+}
+
+/* .galeria__title{
     padding-left: 150px;
 }
 
@@ -325,7 +347,7 @@ h2{
     .contenedor-galeria{
         width: 1200px;
     }
-}
+} */
 
 
 /*-------SECCION CONTACTO.HTML----------*/
