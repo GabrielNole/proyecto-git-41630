@@ -32,50 +32,6 @@ ul{
 }
 
 
-/*--------- HEADER -----------*/
-
-/* .header{
-    background-color: darkorange;
-    color: white;
-    padding: 15px;
-    
-}
-
-
-
-.header__title{
-    text-align: center;
-    padding: 15px;
-}
-
-.header__navbar ul{
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-}
-
-@media(min-width:1200px){
-    .header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-
-    .header__navbar{
-        width: 40%;
-    }
-
-}
-
-a{
-    color: white;
-}
-
-a:hover{
-    color: rgba(255, 255, 255, 0.644);
-} */
-
 /*------Carousel con bootstrap en index------*/
 
 .carousel-item{
@@ -142,27 +98,6 @@ a:hover{
 }
 
 
-/*------INDEX HERO---------*/
-
-/* .hero{
-    height: 92vh;
-
-    background: #000 url("../img/auto.jpg") center / cover no-repeat fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.hero__text{
-    text-align: center;
-    color: white;
-    background-color: rgba(255, 140, 0, 0.582);
-    padding: 15px;
-    border-radius: 20px; 
-} */
-
 /* -------H1y2--------- */
 
 h1 {
@@ -186,6 +121,7 @@ h2{
     width: 100%;
     height: 80vh;
     padding-bottom: 40px;
+    object-fit: contain;
     
 }
 
@@ -207,14 +143,7 @@ h2{
 
 /*------SECCION SERVICIOS.HTML--------*/
 
-.card{
-    
-    align-items: center;
-    
-}
-
-
-/* .contenedor-servicios{
+.contenedor-servicios{
     display: flex;
     padding: 15px;
     gap: 10px;
@@ -260,7 +189,7 @@ h2{
 
 .tarjeta__img{
     width: 100%;
-    
+    object-fit: contain;
 }
 
 .tarjeta__img:hover{
@@ -272,35 +201,24 @@ h2{
     padding: 15px;
     font-size: 20px;
 
-} */
+}
 
 
 /*------SECCION GALERIA.HTML------*/
 
-#galeria .col-lg-4{
-    padding: 25px;
-}
-
-#galeria img{
-    width: 100%;
-}
-
-#galeria img:hover{
-    border: 5px solid white
-}
-
-/* .galeria__title{
+.galeria__title{
     padding-left: 150px;
 }
 
 .contenedor-galeria{
     width: 100%;
     margin: auto;
-
+    
 }
 
 .auto__img{
     width: 100%;
+    
 }
 
 
@@ -344,7 +262,7 @@ h2{
     .contenedor-galeria{
         width: 1200px;
     }
-} */
+}
 
 
 /*-------SECCION CONTACTO.HTML----------*/
