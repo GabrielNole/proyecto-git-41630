@@ -1,0 +1,63 @@
+/*------SECCION SERVICIOS.HTML--------*/
+
+.h1s{
+    font-size: 2rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-servicios{
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+    justify-content: space-around;
+    height: 80vh;
+    width: 100%;
+    
+}
+
+
+
+@media(max-width:1023px){
+    .contenedor-servicios{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 240vh;
+        
+       
+    }
+
+    .h1s{
+        text-align: center;
+    }
+}
+
+
+.tarjeta{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    &__img{
+        width: 100%;
+        object-fit: contain;
+    &:hover{
+        width: 400px;
+        height: 400px;
+    }    
+    }
+    &__titulo{
+        padding: 15px;
+        font-size: 20px;
+    }
+    
+}
