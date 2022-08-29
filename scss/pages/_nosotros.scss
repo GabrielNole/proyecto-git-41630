@@ -14,12 +14,29 @@
     font-weight: 400;
     font-size: 1rem;
     text-align: justify;
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     align-items: center;
     padding-top: 50px;
     
 }
 
+.parrafo2{
+    color: $color-secundario;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+    
+}
+
 .h2_nosotros{
     padding-left: 20px;
+}
+
+.lii::before{
+    content: "•";
 }

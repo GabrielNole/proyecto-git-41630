@@ -36,15 +36,11 @@
 
 
 .tarjeta{
+    @include dflex(column, space-around, center);
     width: 350px;
     height: 300px;
     padding: 10px;
-
     border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     border-radius: 20px;
     overflow: hidden;
     &__img{
