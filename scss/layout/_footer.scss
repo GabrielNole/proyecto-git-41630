@@ -1,23 +1,87 @@
 /*---------FOOTER------------*/
 
-.footer{
+footer{
+    
+    background-color: $color-secundario;
+    height: 10vh;
+    width: 100vw;
+    padding-top: 40px;
     color: $color-primario;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1,5rem;
-    background-color: $color-terciario;
+    
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    padding: 15px;
-    & i{
-        font-size: 2rem;
-        color: map-get($redes, "iconos" );
-        padding: 15px;
-        transition: all 0.3s ease-in-out;
-    &:hover{
-        font-size: 2.5rem;
-        color: $color-secundario;
-    }    
-          
+    background-color: $color-secundario;
+    & h2{
+        font-size: 1.8 rem;
+        font-weight: bold;
+        text-transform: capitalize;
+        line-height: 3 rem;
+        color: $color-terciario;
+    }
+    & h3{
+        font-size: 1.8 rem;
+        font-weight: bold;
+        text-transform: capitalize;
+        line-height: 3 rem;
+        color: $color-terciario;
+        
+    }
+    & p{
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+        display: flex;
     }
 }
+
+
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    & li{
+        margin: 0 10px; 
+    }
+    & a{
+        text-decoration: none;
+        color: $color-primario; 
+    }
+    & a i{
+        font-size: 1.1rem;
+        transition: color .4s ease;
+    }
+    & a:hover{
+        color: $color-terciario;
+    }
+}
+
+
+.footer-bottom{
+    background-color: $color-secundario;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    & p{
+        font-size: 14px;
+        word-spacing: 2px;
+        text-transform: capitalize;
+    }
+    & span{
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200;
+    }
+}
+
+
 
