@@ -14,7 +14,7 @@ ul {
   list-style-type: none;
 }
 
-/* -------H1y2--------- */
+/* -------H2--------- */
 h2 {
   font-size: 1.5rem;
   padding: 10px;
@@ -53,14 +53,13 @@ footer {
   background-color: #000000;
 }
 .footer-content h2 {
-  font-size: 1.8 rem;
   font-weight: bold;
   text-transform: capitalize;
   line-height: 3 rem;
   color: #ff8c00;
 }
 .footer-content h3 {
-  font-size: 1.8 rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-transform: capitalize;
   line-height: 3 rem;
@@ -68,7 +67,7 @@ footer {
 }
 .footer-content p {
   max-width: 500px;
-  margin: 10px auto;
+  margin: 10px 10px;
   line-height: 28px;
   font-size: 14px;
   display: flex;
@@ -115,10 +114,27 @@ footer {
 
 /*-------SECCION CONTACTO.HTML----------*/
 .contacto {
-  padding: 15px;
+  padding: 70px;
   height: 80vh;
   width: 100%;
   justify-content: center;
+}
+.contacto h1 {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.142);
+  text-align: center;
+  color: white;
+  border-radius: 30px;
+}
+
+.imgdefondo {
+  background-image: url(../img/contacto2.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 /*------Carousel con bootstrap en index------*/
@@ -131,14 +147,27 @@ footer {
   bottom: 220px;
   z-index: 2;
 }
-
 .carousel-caption h1 {
   font-size: 45px;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 25px;
+  color: rgba(255, 255, 255, 0.801);
 }
-
+.carousel-caption h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  color: rgba(255, 255, 255, 0.801);
+}
+.carousel-caption h3 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  color: rgba(255, 255, 255, 0.801);
+}
 .carousel-caption p {
   width: 60%;
   margin: auto;
@@ -168,6 +197,11 @@ footer {
     width: 100%;
     line-height: 1.6;
     font-size: 12px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .carousel-caption {
+    bottom: 30px;
   }
 }
 .w-100 {
@@ -269,9 +303,8 @@ footer {
 
 /*------SECCION GALERIA.HTML------*/
 .galeria__title {
-  padding: 20px;
+  padding: 15px;
   font-size: 2rem;
-  margin-top: 20px;
   display: flex;
   justify-content: center;
 }

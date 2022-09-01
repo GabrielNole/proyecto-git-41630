@@ -1,8 +1,26 @@
 /*-------SECCION CONTACTO.HTML----------*/
 
-.contacto{
-    padding: 15px;
+.contacto {
+    padding: 70px;
     height: 80vh;
     width: 100%;
     justify-content: center;
+
+    & h1 {
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.142);
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+    }
+}
+
+.imgdefondo {
+    background-image: url(../img/contacto2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }

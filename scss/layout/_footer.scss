@@ -1,40 +1,42 @@
 /*---------FOOTER------------*/
 
-footer{
-    
+footer {
+
     background-color: $color-secundario;
     height: 10vh;
     width: 100vw;
     padding-top: 40px;
     color: $color-primario;
-    
+
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     background-color: $color-secundario;
-    & h2{
-        font-size: 1.8 rem;
+
+    & h2 {
         font-weight: bold;
         text-transform: capitalize;
         line-height: 3 rem;
         color: $color-terciario;
     }
-    & h3{
-        font-size: 1.8 rem;
+
+    & h3 {
+        font-size: 1.5rem;
         font-weight: bold;
         text-transform: capitalize;
         line-height: 3 rem;
         color: $color-terciario;
-        
+
     }
-    & p{
+
+    & p {
         max-width: 500px;
-        margin: 10px auto;
+        margin: 10px 10px;
         line-height: 28px;
         font-size: 14px;
         display: flex;
@@ -43,45 +45,48 @@ footer{
 
 
 
-.socials{
+.socials {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
-    & li{
-        margin: 0 10px; 
+
+    & li {
+        margin: 0 10px;
     }
-    & a{
+
+    & a {
         text-decoration: none;
-        color: $color-primario; 
+        color: map-get($redes , "iconos");
     }
-    & a i{
+
+    & a i {
         font-size: 1.1rem;
         transition: color .4s ease;
     }
-    & a:hover{
+
+    & a:hover {
         color: $color-terciario;
     }
 }
 
 
-.footer-bottom{
+.footer-bottom {
     background-color: $color-secundario;
     width: 100vw;
     padding: 20px 0;
     text-align: center;
-    & p{
+
+    & p {
         font-size: 14px;
         word-spacing: 2px;
         text-transform: capitalize;
     }
-    & span{
+
+    & span {
         text-transform: uppercase;
         opacity: .4;
         font-weight: 200;
     }
 }
-
-
-
