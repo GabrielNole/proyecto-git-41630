@@ -14,7 +14,11 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         margin-top: 25px;
-        color: rgba(255, 255, 255, 0.801)
+        color: rgba(255, 255, 255, 0.801);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    & span{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }    
     }
 
     & h2 {
@@ -22,7 +26,8 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         margin-top: 25px;
-        color: rgba(255, 255, 255, 0.801)
+        color: rgba(255, 255, 255, 0.801);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     & h3 {
@@ -30,7 +35,8 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         margin-top: 25px;
-        color: rgba(255, 255, 255, 0.801)
+        color: rgba(255, 255, 255, 0.801);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     & p {

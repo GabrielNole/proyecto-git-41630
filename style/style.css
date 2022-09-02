@@ -105,6 +105,7 @@ footer {
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
+  margin: 10px 10px;
 }
 .footer-bottom span {
   text-transform: uppercase;
@@ -153,6 +154,10 @@ footer {
   letter-spacing: 2px;
   margin-top: 25px;
   color: rgba(255, 255, 255, 0.801);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.carousel-caption h1 span {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .carousel-caption h2 {
   font-size: 45px;
@@ -160,6 +165,7 @@ footer {
   letter-spacing: 2px;
   margin-top: 25px;
   color: rgba(255, 255, 255, 0.801);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .carousel-caption h3 {
   font-size: 45px;
@@ -167,6 +173,7 @@ footer {
   letter-spacing: 2px;
   margin-top: 25px;
   color: rgba(255, 255, 255, 0.801);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .carousel-caption p {
   width: 60%;
