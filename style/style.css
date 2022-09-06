@@ -22,7 +22,6 @@ ul {
 /* -------H2--------- */
 h2 {
   font-size: 1.5rem;
-  padding: 10px;
 }
 
 /*------- NAVBAR ----------- */
@@ -273,7 +272,7 @@ footer {
   padding: 15px;
   gap: 10px;
   justify-content: space-around;
-  height: 80vh;
+  height: 50vh;
   width: 100%;
 }
 
@@ -311,6 +310,16 @@ footer {
 .tarjeta__titulo {
   padding: 15px;
   font-size: 20px;
+}
+
+#multimarca .col-lg-4 {
+  padding: 25px;
+}
+
+#multimarca img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
 }
 
 /*------SECCION GALERIA.HTML------*/

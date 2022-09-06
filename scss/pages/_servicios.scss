@@ -12,7 +12,7 @@
     padding: 15px;
     gap: 10px;
     justify-content: space-around;
-    height: 80vh;
+    height: 50vh;
     width: 100%;
 
 }
@@ -60,4 +60,14 @@
 
     }
 
+}
+
+#multimarca .col-lg-4{
+    padding: 25px;
+}
+
+#multimarca img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
 }
