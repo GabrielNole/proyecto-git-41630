@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     padding: 15px;
+    font-weight: bold;
 }
 
 .contenedor-servicios {
@@ -47,7 +48,7 @@
 
     &__img {
         width: 100%;
-        object-fit: contain;
+        object-fit: cover;
         transition: all 0.3s ease;
 
         &:hover {
@@ -58,9 +59,11 @@
 
     &__titulo {
         padding: 15px;
-        font-size: 20px;
+        font-size: 1.5rem;
         color: black;
         text-align: center;
+        
+        
 
     }
 
@@ -77,11 +80,11 @@
     transition: all 0.3s ease;
 
     &:hover{
-        width: 230px;
-        height: 230px;
+        scale: 1.1;
     }
 }
 
 .spanbold{
-    font-weight: bold
+    font-weight: bold;
+    
 }
