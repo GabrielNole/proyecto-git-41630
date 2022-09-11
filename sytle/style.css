@@ -311,7 +311,8 @@ footer {
   align-items: center;
   width: 350px;
   height: 300px;
-  border: 1px solid rgba(0, 0, 0, 0.158);
+  padding: 10px;
+  border: 2px solid black;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -321,13 +322,13 @@ footer {
   transition: all 0.3s ease;
 }
 .tarjeta__img:hover {
-  scale: 1.1;
+  width: 400px;
+  height: 400px;
 }
 .tarjeta__titulo {
   padding: 15px;
   font-size: 20px;
   color: black;
-  text-align: center;
 }
 
 #multimarca .col-lg-4 {

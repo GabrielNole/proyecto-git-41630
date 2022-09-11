@@ -5,6 +5,7 @@
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    padding: 15px;
 }
 
 .contenedor-servicios {
@@ -39,24 +40,27 @@
     @include dflex(column, space-around, center);
     width: 350px;
     height: 300px;
-    padding: 10px;
-    border: 2px solid black;
+    
+    border: 1px solid rgba(0, 0, 0, 0.158);
     border-radius: 20px;
     overflow: hidden;
 
     &__img {
         width: 100%;
         object-fit: contain;
+        transition: all 0.3s ease;
 
         &:hover {
-            width: 400px;
-            height: 400px;
+            scale: 1.1;
+            
         }
     }
 
     &__titulo {
         padding: 15px;
         font-size: 20px;
+        color: black;
+        text-align: center;
 
     }
 
@@ -70,4 +74,14 @@
     width: 200px;
     height: 200px;
     object-fit: contain;
+    transition: all 0.3s ease;
+
+    &:hover{
+        width: 230px;
+        height: 230px;
+    }
+}
+
+.spanbold{
+    font-weight: bold
 }
