@@ -1,0 +1,19 @@
+#seguros .col-lg-4{
+    padding: 25px;
+}
+
+#seguros img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: all 0.3s ease;
+
+    &:hover{
+        scale: 1.1;
+    }
+}
+
+.spanbold{
+    font-weight: bold;
+    
+}

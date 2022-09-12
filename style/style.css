@@ -130,10 +130,9 @@ footer {
 }
 .contacto h1 {
   font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.142);
   text-align: center;
-  color: white;
-  border-radius: 30px;
+  color: black;
+  margin-top: 15px;
 }
 
 .imgdefondo {
@@ -144,6 +143,14 @@ footer {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+}
+
+.formulario {
+  background-color: white;
+}
+
+.btn {
+  background-color: darkorange;
 }
 
 /*------Carousel con bootstrap en index------*/
@@ -507,6 +514,24 @@ footer {
   margin-left: 30px;
   margin-top: 50px;
   font-size: 1rem;
+  font-weight: bold;
+}
+
+#seguros .col-lg-4 {
+  padding: 25px;
+}
+
+#seguros img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+#seguros img:hover {
+  scale: 1.1;
+}
+
+.spanbold {
   font-weight: bold;
 }
 
