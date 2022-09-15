@@ -135,8 +135,7 @@ footer {
 
 /*-------SECCION CONTACTO.HTML----------*/
 .contacto {
-  padding: 70px;
-  height: 80vh;
+  height: 100%;
   width: 100%;
   justify-content: center;
 }
@@ -145,6 +144,7 @@ footer {
   text-align: center;
   color: black;
   margin-top: 15px;
+  color: rgb(255, 255, 255);
 }
 
 .imgdefondo {
@@ -153,19 +153,34 @@ footer {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
 }
 
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto-info {
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+  line-height: 50px;
+  word-spacing: 4px;
+}
+
 .formulario {
-  background-color: white;
+  padding-top: 20px;
 }
 
 .btn {
   background-color: darkorange;
+  border-radius: 0.6rem;
 }
 .btn:hover {
   color: orange;
+  box-shadow: 3px 2px 20px orange, 3px 2px 20px orange;
 }
 
 /*------Carousel con bootstrap en index------*/

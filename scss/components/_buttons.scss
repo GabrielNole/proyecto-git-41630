@@ -1,7 +1,11 @@
 .btn{
     background-color: darkorange;
+    border-radius: 0.6rem;
     &:hover{
         color: orange;
+        box-shadow: 3px 2px 20px orange,
+        3px 2px 20px orange;
+        
     }
 }
 

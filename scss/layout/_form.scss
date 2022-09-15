@@ -1,16 +1,19 @@
 /*-------SECCION CONTACTO.HTML----------*/
 
 .contacto {
-    padding: 70px;
-    height: 80vh;
+
+    height: 100%;
     width: 100%;
     justify-content: center;
+
 
     & h1 {
         font-weight: bold;
         text-align: center;
         color: black;
         margin-top: 15px;
+        color: rgb(255, 255, 255);
+
     }
 }
 
@@ -20,11 +23,29 @@
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+
     background-position: center;
 }
 
-.formulario{
-    background-color: white;
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.contacto-info {
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    line-height: 50px;
+    word-spacing: 4px;
+
+
+}
+
+
+
+.formulario {
+    padding-top: 20px;
+
+}
