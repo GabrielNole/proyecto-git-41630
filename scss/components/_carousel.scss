@@ -16,9 +16,10 @@
         margin-top: 25px;
         color: rgba(255, 255, 255, 0.801);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    & span{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }    
+
+        & span {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
     }
 
     & h2 {
@@ -44,7 +45,7 @@
         margin: auto;
         font-size: 18px;
         line-height: 1.9;
-        
+
     }
 }
 
@@ -90,7 +91,7 @@
     object-fit: cover;
 }
 
-.autonole{
+.autonole {
     color: rgba(255, 140, 0, 0.79);
-    
+
 }

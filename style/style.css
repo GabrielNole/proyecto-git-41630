@@ -170,10 +170,6 @@ footer {
   word-spacing: 4px;
 }
 
-.formulario {
-  padding-top: 20px;
-}
-
 .btn {
   background-color: darkorange;
   border-radius: 0.6rem;
@@ -301,7 +297,7 @@ footer {
 }
 
 .nole {
-  color: darkorange;
+  color: #ff8c00;
   font-weight: bold;
 }
 
@@ -362,7 +358,7 @@ footer {
 .tarjeta__titulo {
   padding: 15px;
   font-size: 1.5rem;
-  color: black;
+  color: #000000;
   text-align: center;
 }
 
@@ -441,7 +437,6 @@ footer {
   margin-top: 60px;
   margin-left: 30px;
   font-size: 2rem;
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
 
@@ -449,7 +444,6 @@ footer {
   margin-left: 30px;
   margin-top: 50px;
   font-size: 1rem;
-  font-family: "Poppins", sans-serif;
 }
 
 .pprecio {
@@ -457,7 +451,6 @@ footer {
   margin-top: 50px;
   font-size: 1rem;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
 }
 
 .imgservicios {
@@ -470,7 +463,6 @@ footer {
   margin-top: 60px;
   margin-left: 30px;
   font-size: 2rem;
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
 
@@ -478,7 +470,6 @@ footer {
   margin-left: 30px;
   margin-top: 50px;
   font-size: 1rem;
-  font-family: "Poppins", sans-serif;
 }
 
 .pprecio {
@@ -486,7 +477,6 @@ footer {
   margin-top: 50px;
   font-size: 1rem;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
 }
 
 .imgservicios {
@@ -499,7 +489,6 @@ footer {
   margin-top: 60px;
   margin-left: 30px;
   font-size: 2rem;
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
 
@@ -507,7 +496,6 @@ footer {
   margin-left: 30px;
   margin-top: 50px;
   font-size: 1rem;
-  font-family: "Poppins", sans-serif;
 }
 
 .pprecio {
@@ -515,7 +503,6 @@ footer {
   margin-top: 50px;
   font-size: 1rem;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
 }
 
 .imgservicios {
@@ -528,7 +515,6 @@ footer {
   margin-top: 60px;
   margin-left: 30px;
   font-size: 2rem;
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
 
